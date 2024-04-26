@@ -9,57 +9,60 @@
 <body>
     <div class="container">
         <div class="left-side">
-            <div>
-                <img src="images/odin-lined.png" alt="odin-online-logo">
-            </div>
-            <div>
-                <h1>ODIN</h1>
+            <div class="text-img">
+                <div>
+                    <img src="images/odin-lined.png" alt="odin-online-logo">
+                </div>
+                <div>
+                    <h1>ODIN</h1>
+                </div>
             </div>
         </div>
         <div class="right-side">
             <div class="top">
-                <p>
-                    This is not a real online service! You know you  need like this in your life to help you
+                <p class="p-1">
+                    This is not a real online service! You know you  need something like this in your life to help you
                     realize your deepest dream. <br> Sig up now to get started.
                 </p>
-                <p>You know you want to.</p>
+                <p class="p-2">You know you want to.</p>
             </div>
-            <div class="form">
-                <form action="#">
+            <div class="right-down">
+                <h2>Let's do this!</h2>
+                <form action="#" class="form">
                     <div class="form-left">
-                        <h2>Let's do this!</h2>
-                        <div>
-                            <label for="firstName"> FIRST NAME</label>
+                        <div class="form-input">
+                            <label for="firstName"> FIRST NAME</label> <br>
                             <input type="text" name="fname" required  placeholder="first name">
                         </div>
-                        <div>
-                            <label for="email"> EMAIL</label>
+                        <div class="form-input">
+                            <label for="email"> EMAIL</label><br>
                             <input type="email" name="email" required  placeholder="email">
                         </div>
-                        <div>
-                            <label for="password"> PASSWORD</label>
+                        <div class="form-input">
+                            <label for="password"> PASSWORD</label><br>
                             <input type="password" name="password" required placeholder="password">
+                            <p>* password do not match!</p>
                         </div>
                     </div>
                     <div class="form-right">
-                        <div>
-                            <label for="lastName"> LAST NAME</label>
+                        <div class="form-input">
+                            <label for="lastName"> LAST NAME</label><br>
                             <input type="text" name="lname" required  placeholder="last name">
-                        </div>
-                        <div>
-                            <label for="number"> PHONE NUMBER</label>
+                        </div >
+                        <div class="form-input">
+                            <label for="number"> PHONE NUMBER</label><br>
                             <input type="number" name="email" required  placeholder="phone number" max="10">
                         </div>
-                        <div>
-                            <label for="cpassword">CONFIRM PASSWORD</label>
+                        <div class="form-input">
+                            <label for="cpassword">CONFIRM PASSWORD</label><br>
                             <input type="password" name="password" required placeholder="password">
                         </div>
                     </div>
-                    <div>
-                        <button type="submit" class="btn">Create Account</button>
-                        <p>Already have an account! Log in</p>
-                    </div>
-                </form>
+                </form> 
+            </div>
+            <div>
+                <button type="submit" class="btn">Create Account</button>
+                <p  class="btn-p">Already have an account! <b>Log in</b></p>
             </div>
         </div>
     </div>
